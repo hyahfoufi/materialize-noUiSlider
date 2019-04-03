@@ -19,7 +19,7 @@
 		"**/*.json"
 	],
 	"license": "MIT",
-	"homepage": "https://refreshless.com/nouislider/",
+	"homepage": "https://github.com/hyahfoufi/materialize-noUiSlider",
 	"author": {
 		"name": "Leon Gersen"
 	}

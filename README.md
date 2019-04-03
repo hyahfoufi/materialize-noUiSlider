@@ -1,13 +1,8 @@
-# noUiSlider
+# materialize-noUiSlider
 
-noUiSlider is a lightweight JavaScript range slider.
+materialize-noUiSlider is a lightweight JavaScript range slider with the material theme.
 
-- **No dependencies**
-- All modern browsers and IE > 9 are supported
-- Fully **responsive**
-- **Multi-touch support** on Android, iOS and Windows devices
-- Accessible with `aria` and keyboard support
-- Tons of [examples](https://refreshless.com/nouislider/examples) and answered [Stack Overflow questions](https://stackoverflow.com/questions/tagged/nouislider)
+It was taken directly from the [noUiSlider](https://github.com/Dogfalo/materialize/tree/v1-dev/extras/noUiSlider) repository and made into its own package.
 
 License
 -------
@@ -37,33 +32,11 @@ Devices/browsers tested:
 	+ IE10 (Emulated)
 	+ IE9 (Emulated)
 
-Testing
+Credit
 -------
 
-Cross-browser testing kindly provided by BrowserStack.
+Credit goes to:
 
-[![Tested with BrowserStack](documentation/assets/browserstack-logo-600x315.png)](http://browserstack.com/)
+[noUiSlider](https://github.com/leongersen/noUiSlider)
 
-Webpack
--------
-In order to use this with webpack, the easiest way to work with it is by using the [`ProvidePlugin`](https://webpack.js.org/plugins/provide-plugin/):
-
-```javascript
-// webpack.config.js
-var webpack = require('webpack');
-...
-plugins: [
-	new webpack.ProvidePlugin({
-		noUiSlider: 'nouislider'
-	})
-]
-...
-```
-
-If you're using ES6 imports, a simple [import with side effect](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Import_a_module_for_its_side_effects_only)
-is enough:
-
-```
-import 'nouislider';
-import 'nouislider/distribute/nouislider.css';
-```
+[materialize-css](https://github.com/Dogfalo/materialize)
